@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Jost_Classic;
+    src: local("Jost_Classic"), url('../Fonts/Jost-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Jost_Strong;
+    src: local("Jost_Strong"), url('../Fonts/Jost-Black.ttf');
+}
+
+.buttonHeader {
+    text-align: center;
+}
+
+.centre {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.centre p {
+    text-align: left;
+    margin: 1% 16%;
+    font-size: 24px;
+}
+
+.centre img {
+    border-radius: 2%;
+}
+
+.about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(170, 214, 255);
+    
+}
+
+a {
+    color: #ffff;
+}
+
+
+footer {
+    width: 100%;
+    
+    position: absolute;
+    background: linear-gradient(rgb(63, 63, 63)0% ,rgb(63, 63, 63) 20%, rgb(26, 25, 25)100%);
+    left: 0;
+    text-align: center;
+}
+
+html {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 95%, rgb(63,63,63) 100%) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(26, 25, 25);
+}
+
+.button {
+    background-color: #6ea375;
+    color: rgb(77, 77, 77);
+    text-align: center;
+    font-size: 28px;
+    font-family: Jost_Classic;
+    font:large;
+    margin: 15px 4%;
+    border-radius: 50px;
+    border:none;
+    padding: 2px 30px;
+    transition: 0.2s;
+}
+
+input {
+    color: rgb(77, 77, 77);
+    text-align: center;
+    font-size: 18px;
+    font-family: Jost_Classic;
+    font:large;
+    margin: 15px 4%;
+    border-radius: 50px;
+    border:none;
+    padding: 2px 30px;
+    transition: 0.2s;
+}
+
+.button p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.FollowsButtons {
+    margin: 15px 15px;
+}
+
+.buttonDownload {
+    background-color: #1900ff;
+    color: rgb(77, 77, 77);
+    font-style: Jost_Classic;
+    text-align: center;
+    font-size: 18px;
+    font-family: Jost_Classic;
+    font:large;
+    margin: 0px 10px;
+    border-radius:10px;
+    border:none;
+}
+
+.button:hover {
+    background-color: #168300;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.button:active {
+    background-color: #57b063;
+    transition: 0.1s;
+}
+
+.buttonDownload:hover {
+    background-color:#008aad;
+    transition: 0.2s;
+}
+
+.buttonDownload:active {
+    background-color: #8670ff;
+    transition: 0.1s;
+}
+
+html::-webkit-scrollbar {
+    width: 15px; 
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #e7ffca;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #366c2b;
+    border-radius: 20px;
+}
+
+p {
+    font-family: Jost_Classic;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin : 5px 5px 5px 8px;
+    text-align: center;
+}
+
+h6 {
+    font-family: Jost_Classic;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(41, 41, 41);
+}
+
+h5 {
+    font-family: Jost_Classic;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(214, 214, 214);
+}
+
+h4{
+    font-family: Jost_Classic;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0%;
+    color: rgb(218, 214, 214);
+}
+
+h1 {
+    font-family: Jost_Classic;
+    font-size: 50px;
+    margin-left: 10%;
+    color: rgb(76, 97, 99);
+    
+}
+
+h1 img {
+    vertical-align: middle;
+}
+
+h2 {
+    font-family: Jost_Strong;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+h3, label {
+    font-family: Jost_Classic;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(57, 57, 57);
+}
+
+fieldset {
+    font-family: Jost_Classic;
+    border: none;
+}
+
+input {
+    background: rgb(130, 130, 130);
+    color: rgb(52, 52, 52);
+}
